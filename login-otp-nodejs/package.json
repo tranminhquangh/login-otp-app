@@ -1,0 +1,28 @@
+{
+  "name": "loginnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^8.10.0",
+    "otp-generator": "^4.0.0",
+    "twilio": "^3.83.3"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.20.0",
+    "nodemon": "^2.0.20"
+  }
+}
